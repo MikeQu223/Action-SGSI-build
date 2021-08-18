@@ -9,14 +9,14 @@ apps_dir="
 DataMigration
 Email
 Life
-PerfUI
 Reader
 RemoteCooperation
 VideoClips
 DesktopBackup
 FamilyGuard
-GmsCore
 Phonesky_CN
+Camera
+NrNetworkSettingApp
 "
 for delete_dir in $apps_dir ;do
   find $systemdir -type d -name "$delete_dir" | xargs rm -rf
