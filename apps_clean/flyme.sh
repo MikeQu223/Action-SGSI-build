@@ -19,6 +19,9 @@ FamilyGuard
 Phonesky_CN
 Camera
 NrNetworkSettingApp
+MzStore
+mCareNew
+ARruler
 "
 for delete_dir in $apps_dir ;do
   find $systemdir -type d -name "$delete_dir" | xargs rm -rf
