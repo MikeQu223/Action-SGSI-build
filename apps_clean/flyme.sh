@@ -3,6 +3,8 @@
 LOCALDIR=`cd "$( dirname $0 )" && pwd`
 cd $LOCALDIR
 
+find . -iname '*nfc*' -exec rm -rf {} \;
+
 systemdir=$1
 
 apps_dir="
